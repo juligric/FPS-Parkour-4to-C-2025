@@ -5,6 +5,7 @@ using UnityEngine;
 public class mernacansiaScript : MonoBehaviour
 {
     public float cost;
+    public MoneyManager money
 
     private void OnCollisionEnter(Collision collision)
     {
