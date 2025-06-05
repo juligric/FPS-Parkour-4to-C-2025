@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class mernacansiaScript : MonoBehaviour
 {
+    public float cost;
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name == "player")
